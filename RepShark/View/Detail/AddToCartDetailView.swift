@@ -8,11 +8,37 @@
 import SwiftUI
 
 struct AddToCartDetailView: View {
+    // MARK: - PROPERTY
+    
+    // MARK: - BODY
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {}, label: {
+            Spacer()
+            Text("Add to cart".uppercased())
+                .font(.system(.title2, design: .rounded))
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+            Spacer()
+        }) //: BUTTON
+        .padding(15)
+        .background(
+            Color(
+                red: sampleProduct.red,
+                green: sampleProduct.green,
+                blue: sampleProduct.blue
+            )
+        )
+        .clipShape(Capsule())
     }
 }
 
-#Preview {
-    AddToCartDetailView()
+// MARK: - PREVIEW
+
+struct AddToCartDetailView_Preview: PreviewProvider {
+    static var previews: some View {
+        AddToCartDetailView()
+            .previewLayout(.sizeThatFits)
+            .padding()
+    }
 }
