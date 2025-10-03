@@ -3,7 +3,7 @@
     "id" : 1,
     "name" : "Nike Shoxs",
     "image" : "shoe-no1",
-    "price" : 199,
+    "price" : 219,
     "description" : "The football helmet is a piece of protective equipment used mainly in gridiron football. It consists of a hard plastic shell with thick padding on the inside, a face mask made of one or more plastic-coated metal bars, and a chinstrap. Each position has a different type of face mask to balance protection and visibility, and some players add polycarbonate visors to their helmets, which are used to protect their eyes from glare and impacts. Helmets are a requirement at all levels of organized football.",
     "color" : [
         0.75,
